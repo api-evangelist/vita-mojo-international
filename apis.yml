@@ -1,23 +1,91 @@
 aid: vita-mojo-international
 name: Vita Mojo International
-description: Vita Mojo International is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Vita Mojo International is a London-based hospitality technology company
+  behind VMOS, an end-to-end order management system for quick-service restaurants
+  that unifies point of sale, self-service kiosks, digital ordering, click-and-collect,
+  kitchen management, menu management, loyalty, and data analytics (including the
+  Scout AI analyst). Launched in 2015 and backed by Battery Ventures, Vita Mojo powers
+  3,100+ locations for brands such as Subway, GAIL's, LEON, Honest Burgers, and YO!,
+  primarily in the UK and Netherlands. Its integration surface is partner-oriented, with
+  a partner-gated Reporting API, an EPOS Connector that delivers VMOS orders via webhooks
+  in supported formats, and a catalog of technology partner integrations; first-party
+  JavaScript libraries are published publicly on npm under the @vita-mojo scope.
 url: https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/48916872?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: partner-gated API surface (Reporting API + EPOS Connector webhooks);
+  no public API contract published
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hospitality
+- Restaurants
+- Point of Sale
+- Digital Ordering
+- Kitchen Management
+- Order Management
+- Loyalty
+- Quick Service Restaurants
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vita-mojo-international-domain-security.yml
+- type: Website
+  url: https://www.vitamojo.com/
+- type: Documentation
+  url: https://www.vitamojo.com/documentation/
+- type: Support
+  url: https://support.vitamojo.com/hc/en-gb
+- type: Blog
+  url: https://www.vitamojo.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/vita-mojo
+- type: Pricing
+  url: https://www.vitamojo.com/pricing/
+- type: Login
+  url: https://vmos2.vmos.io/
+- type: TermsOfService
+  url: https://www.vitamojo.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.vitamojo.com/privacy-policy/
+- type: Integrations
+  url: https://www.vitamojo.com/integration-partners-for-qsr/
+- type: Careers
+  url: https://www.vitamojo.com/careers/
+- type: Packages
+  url: packages/vita-mojo-international-packages.yml
+- type: SDKs
+  url: packages/vita-mojo-international-packages.yml
+- type: LLMsTxt
+  url: llms/vita-mojo-international-llms.txt
+- type: Conformance
+  url: conformance/vita-mojo-international-conformance.yml
+- type: Webhooks
+  url: asyncapi/vita-mojo-international-epos-webhooks.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

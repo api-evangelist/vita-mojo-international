@@ -1,0 +1,88 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/search?q=%40vita-mojo
+notes: First-party JavaScript/TypeScript libraries published publicly on npm under
+  the @vita-mojo scope by the vitamojo CI account (publisher cicd_vitamojo). These
+  are platform libraries (Nx workspace packages) rather than a documented public
+  client SDK; the fiscalization-sdk is the closest to a product SDK, wrapping
+  integrations with fiscalization providers.
+packages:
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/fiscalization-sdk'
+  url: https://www.npmjs.com/package/@vita-mojo/fiscalization-sdk
+  install: npm install @vita-mojo/fiscalization-sdk
+  official: true
+  latest: 0.1.22-VMOS-13838-6c66a4d-411-rc.0
+  published: '2026-05-27'
+  description: Wrapper for integrating with various fiscalization providers.
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/types'
+  url: https://www.npmjs.com/package/@vita-mojo/types
+  install: npm install @vita-mojo/types
+  official: true
+  latest: 1.0.65
+  published: '2026-07-14'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/utils'
+  url: https://www.npmjs.com/package/@vita-mojo/utils
+  install: npm install @vita-mojo/utils
+  official: true
+  latest: 1.0.48
+  published: '2026-07-14'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/auth'
+  url: https://www.npmjs.com/package/@vita-mojo/auth
+  install: npm install @vita-mojo/auth
+  official: true
+  latest: 1.0.60
+  published: '2026-07-14'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/logger'
+  url: https://www.npmjs.com/package/@vita-mojo/logger
+  install: npm install @vita-mojo/logger
+  official: true
+  latest: 1.0.41
+  published: '2026-07-14'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/mqtt'
+  url: https://www.npmjs.com/package/@vita-mojo/mqtt
+  install: npm install @vita-mojo/mqtt
+  official: true
+  latest: 1.0.43
+  published: '2026-07-14'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/amounts'
+  url: https://www.npmjs.com/package/@vita-mojo/amounts
+  install: npm install @vita-mojo/amounts
+  official: true
+  latest: 0.0.62
+  published: '2026-07-14'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/aggregator'
+  url: https://www.npmjs.com/package/@vita-mojo/aggregator
+  install: npm install @vita-mojo/aggregator
+  official: true
+  latest: 1.450.0
+  published: '2026-07-06'
+- language: javascript
+  registry: npm
+  name: '@vita-mojo/eslint-plugin'
+  url: https://www.npmjs.com/package/@vita-mojo/eslint-plugin
+  install: npm install @vita-mojo/eslint-plugin
+  official: true
+  latest: 1.0.23
+  published: '2026-07-14'
+- language: javascript
+  registry: github
+  name: xml-escpos-helper
+  url: https://github.com/vita-mojo/xml-escpos-helper
+  official: true
+  description: ESC/POS with XML interface and Handlebars support (receipt printing).

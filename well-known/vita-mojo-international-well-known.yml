@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+notes: Probe of the /.well-known/ discovery surface on Vita Mojo's public hosts.
+  No real well-known documents are published. www.vitamojo.com (WordPress) and
+  vmos2.vmos.io (VMOS single-page app) both soft-200 unknown paths with an HTML
+  page, recorded below as soft_404; no RFC 9116 security.txt, OIDC discovery,
+  OAuth metadata, api-catalog, or ai-plugin.json was found.
+hosts:
+- host: https://www.vitamojo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    soft_404: true
+    note: Returns the WordPress HTML page, not an llms.txt document.
+- host: https://vmos2.vmos.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_404: true
+    note: Returns the VMOS SPA HTML shell, not an RFC 9116 security.txt.

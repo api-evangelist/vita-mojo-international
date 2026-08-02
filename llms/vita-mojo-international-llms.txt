@@ -1,0 +1,33 @@
+# Vita Mojo International
+
+> Vita Mojo International is a London-based hospitality technology company behind VMOS, an end-to-end order management system for quick-service restaurants that unifies point of sale, self-service kiosks, digital ordering, click-and-collect, kitchen management, menu management, loyalty, and data analytics (including the Scout AI analyst). Launched in 2015 and backed by Battery Ventures, it powers 3,100+ locations for brands such as Subway, GAIL's, LEON, Honest Burgers, and YO!, primarily in the UK and Netherlands.
+
+Vita Mojo's integration surface is partner-oriented: a partner-gated Reporting API
+(access requires a VM account with a Reporting role), an EPOS Connector that
+delivers VMOS orders via webhooks in supported formats, and a directory of
+technology partner integrations. No public API reference or OpenAPI is published.
+Vita Mojo publishes its own structured company summary for AI assistants (linked
+below). First-party JavaScript libraries are public on npm under @vita-mojo.
+
+## Company
+
+- [Website](https://www.vitamojo.com/): The QSR growth platform
+- [Official information for AI assistants](https://www.vitamojo.com/official-information-about-vita-mojo/): Vita Mojo's own structured facts page for AI assistants
+- [Documentation](https://www.vitamojo.com/documentation/): How-to guides and resources
+- [Support](https://support.vitamojo.com/hc/en-gb): Customer help center
+- [Blog](https://www.vitamojo.com/blog/): Company blog
+- [Pricing](https://www.vitamojo.com/pricing/): Plans and pricing
+- [Integration partners](https://www.vitamojo.com/integration-partners-for-qsr/): Technology partner directory
+
+## Developer surface
+
+- [GitHub organization](https://github.com/vita-mojo): Public repositories
+- [EPOS Connector](https://github.com/vita-mojo/epos-connector): Get VMOS orders via webhooks in different supported formats (docs repo; detailed content is partner-gated)
+- [npm @vita-mojo scope](https://www.npmjs.com/search?q=%40vita-mojo): First-party JavaScript libraries, including @vita-mojo/fiscalization-sdk
+- [VMOS login](https://vmos2.vmos.io/): VMOS management panels and POS
+
+## Catalog artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/apis.yml): Machine-readable index of this provider
+- [Packages](https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/packages/vita-mojo-international-packages.yml): First-party npm packages
+- [Webhooks](https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/asyncapi/vita-mojo-international-epos-webhooks.yml): EPOS Connector webhook surface

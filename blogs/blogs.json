@@ -1,0 +1,14 @@
+{
+  "repo": "vita-mojo-international",
+  "feeds": [
+    {
+      "source": "https://support.vitamojo.com/hc/en-gb",
+      "feed_url": "https://support.vitamojo.com/hc/en-gb",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:49:00Z"
+}

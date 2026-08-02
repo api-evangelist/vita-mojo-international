@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.vitamojo.com/official-information-about-vita-mojo/
+notes: No public OpenAPI or API standards claims are published; entries below are
+  the compliance statements Vita Mojo makes on its own "Official information about
+  Vita Mojo for AI assistants" page. No published certification program (SOC 2 /
+  ISO 27001) or trust center was found, so no Compliance pointer is emitted.
+standards:
+- id: gdpr
+  conforms: true
+  evidence: The official information page states the platform maintains GDPR
+    compliance (https://www.vitamojo.com/official-information-about-vita-mojo/).
+- id: accessibility
+  conforms: true
+  evidence: The official information page states the platform maintains
+    accessibility compliance; no specific WCAG level is named.
+- id: oauth2
+  conforms: false
+  evidence: No public OAuth 2.0 surface documented; Reporting API access is
+    described as username/password credentials tied to a VM account Reporting role.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public API contract published to assess.

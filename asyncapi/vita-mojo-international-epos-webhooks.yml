@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/vita-mojo/epos-connector
+type: Webhooks
+notes: Vita Mojo advertises a webhook-based order delivery surface — the EPOS
+  Connector — described by the provider as "Get VMOS orders via webhooks in
+  different supported formats." The detailed webhook reference is partner-gated;
+  the public epos-connector repository is a Slate documentation scaffold whose
+  published content is still the default template, so no event names, payload
+  schemas, or delivery semantics are captured here. No AsyncAPI document is
+  published. Third-party partner guides (Toggle, Airship) confirm connector-based
+  integration with VMOS.
+webhooks:
+  name: EPOS Connector
+  description: Delivers VMOS orders to partner EPOS systems via webhooks in
+    multiple supported formats.
+  docs: https://github.com/vita-mojo/epos-connector
+  access: partner-gated
+  events: []
+evidence:
+- source: https://github.com/vita-mojo/epos-connector
+  kind: repository description
+  quote: EPOS Connector documentation. Get VMOS orders via webhooks in different
+    supported formats.
+- source: https://academy.usetoggle.com/en/articles/4811675-how-to-connect-vita-mojo-with-toggle
+  kind: partner integration guide
+- source: https://academy.airship.co.uk/en/articles/3787068-how-to-set-up-the-airship-connector-in-vita-mojo
+  kind: partner integration guide
