@@ -11,6 +11,9 @@ description: Vita Mojo International is a London-based hospitality technology co
   in supported formats, and a catalog of technology partner integrations; first-party
   JavaScript libraries are published publicly on npm under the @vita-mojo scope.
 url: https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "partner-gated API surface (Reporting API + EPOS Connector webhooks); no public API contract published"
 deliveryModel:
   model: saas
   open_source: false
