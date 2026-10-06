@@ -46,7 +46,7 @@ x-tier-reason: partner-gated API surface (Reporting API + EPOS Connector webhook
   no public API contract published
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Hospitality
@@ -69,6 +69,8 @@ tags_raw:
 - Quick Service Restaurants
 apis: []
 common:
+- url: https://www.vitamojo.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/vita-mojo-international-domain-security.yml
 - type: Website
